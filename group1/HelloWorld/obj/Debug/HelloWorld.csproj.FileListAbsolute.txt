@@ -1,7 +1,0 @@
-F:\users\administrator\source\repos\group1\HelloWorld\bin\Debug\HelloWorld.exe.config
-F:\users\administrator\source\repos\group1\HelloWorld\bin\Debug\HelloWorld.exe
-F:\users\administrator\source\repos\group1\HelloWorld\bin\Debug\HelloWorld.pdb
-F:\users\administrator\source\repos\group1\HelloWorld\obj\Debug\HelloWorld.csproj.AssemblyReference.cache
-F:\users\administrator\source\repos\group1\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
-F:\users\administrator\source\repos\group1\HelloWorld\obj\Debug\HelloWorld.exe
-F:\users\administrator\source\repos\group1\HelloWorld\obj\Debug\HelloWorld.pdb
