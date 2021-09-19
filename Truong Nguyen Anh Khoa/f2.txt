@@ -1,0 +1,2 @@
+TinB01;Nguyen Van Binh;6.5;10.0;8.0
+TinB02;Phan Van Khanh;9.0;3.5;7.0
