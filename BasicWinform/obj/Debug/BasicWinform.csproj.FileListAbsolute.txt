@@ -1,0 +1,11 @@
+F:\users\administrator\source\repos\group1\BasicWinform\bin\Debug\BasicWinform.exe.config
+F:\users\administrator\source\repos\group1\BasicWinform\bin\Debug\BasicWinform.exe
+F:\users\administrator\source\repos\group1\BasicWinform\bin\Debug\BasicWinform.pdb
+F:\users\administrator\source\repos\group1\BasicWinform\obj\Debug\BasicWinform.csproj.AssemblyReference.cache
+F:\users\administrator\source\repos\group1\BasicWinform\obj\Debug\BasicWinform.frmMain.resources
+F:\users\administrator\source\repos\group1\BasicWinform\obj\Debug\BasicWinform.csproj.GenerateResource.cache
+F:\users\administrator\source\repos\group1\BasicWinform\obj\Debug\BasicWinform.csproj.CoreCompileInputs.cache
+F:\users\administrator\source\repos\group1\BasicWinform\obj\Debug\BasicWinform.exe
+F:\users\administrator\source\repos\group1\BasicWinform\obj\Debug\BasicWinform.pdb
+F:\users\administrator\source\repos\group1\BasicWinform\obj\Debug\BasicWinform.Properties.Resources.resources
+F:\users\administrator\source\repos\group1\BasicWinform\obj\Debug\BasicWinform.frmUser.resources
