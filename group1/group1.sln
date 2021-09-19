@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31612.314
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{9E3933C8-97C3-4FB5-B219-81A9B46B1604}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicWinform", "BasicWinform\BasicWinform.csproj", "{DFA1FDCE-C823-4CAE-9A90-8F17CC3916EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E3933C8-97C3-4FB5-B219-81A9B46B1604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E3933C8-97C3-4FB5-B219-81A9B46B1604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E3933C8-97C3-4FB5-B219-81A9B46B1604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E3933C8-97C3-4FB5-B219-81A9B46B1604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFA1FDCE-C823-4CAE-9A90-8F17CC3916EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA1FDCE-C823-4CAE-9A90-8F17CC3916EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA1FDCE-C823-4CAE-9A90-8F17CC3916EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA1FDCE-C823-4CAE-9A90-8F17CC3916EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E4AD6CF-84CB-41CD-8F85-5B1FEFD017A4}
+	EndGlobalSection
+EndGlobal
