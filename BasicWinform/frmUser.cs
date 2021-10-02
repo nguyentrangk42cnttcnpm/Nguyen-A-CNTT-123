@@ -39,6 +39,27 @@ namespace BasicWinform
             var ls1 = ds.GetList();
             dsBindingSource.DataSource = ls1;
             gridDslichsuhoctapsv.DataSource = dsBindingSource;
-        }    
+        }
+
+        private void picAvatar_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog dialog = new OpenFileDialog();
+            dialog.Filter = "File ảnh(*.png, *.jpg)|*.png;*.jpg";
+            dialog.Title = "Chọn ảnh đại diện";
+            if(dialog.ShowDialog() == DialogResult.OK)
+            {
+                var fileName = dialog.FileName;
+                picAvatar.ImageLocation = fileName;
+            }
+        }
+
+        private void frmUser_Click(object sender, EventArgs e)
+        {
+            if(cl1.ShowDialog()==DialogResult.OK)
+            {
+                this.BackColor=cl1.Color;               
+            }
+            
+        }
     }
 }

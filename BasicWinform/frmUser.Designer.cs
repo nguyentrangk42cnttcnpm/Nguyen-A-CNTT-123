@@ -30,7 +30,7 @@ namespace BasicWinform
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.picAvatar = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.rdKhac = new System.Windows.Forms.RadioButton();
@@ -49,26 +49,28 @@ namespace BasicWinform
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gridDslichsuhoctapsv = new System.Windows.Forms.DataGridView();
-            this.dsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.levelDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.schoolDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sSDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.dsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.cl1 = new System.Windows.Forms.ColorDialog();
+            ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridDslichsuhoctapsv)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dsBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // picAvatar
             // 
-            this.pictureBox1.Image = global::BasicWinform.Properties.Resources._17cf8b59b353460d1f423;
-            this.pictureBox1.Location = new System.Drawing.Point(24, 74);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(177, 207);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.picAvatar.Image = global::BasicWinform.Properties.Resources._17cf8b59b353460d1f423;
+            this.picAvatar.Location = new System.Drawing.Point(24, 74);
+            this.picAvatar.Name = "picAvatar";
+            this.picAvatar.Size = new System.Drawing.Size(177, 207);
+            this.picAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picAvatar.TabIndex = 0;
+            this.picAvatar.TabStop = false;
+            this.picAvatar.Click += new System.EventHandler(this.picAvatar_Click);
             // 
             // label1
             // 
@@ -266,16 +268,13 @@ namespace BasicWinform
             this.gridDslichsuhoctapsv.Size = new System.Drawing.Size(888, 206);
             this.gridDslichsuhoctapsv.TabIndex = 6;
             // 
-            // dsBindingSource
-            // 
-            this.dsBindingSource.DataSource = typeof(BasicWinform.Entities.ds);
-            // 
             // levelDataGridViewTextBoxColumn
             // 
             this.levelDataGridViewTextBoxColumn.DataPropertyName = "Level";
             this.levelDataGridViewTextBoxColumn.HeaderText = "Cấp";
             this.levelDataGridViewTextBoxColumn.MinimumWidth = 8;
             this.levelDataGridViewTextBoxColumn.Name = "levelDataGridViewTextBoxColumn";
+            this.levelDataGridViewTextBoxColumn.Width = 150;
             // 
             // schoolDataGridViewTextBoxColumn
             // 
@@ -291,28 +290,37 @@ namespace BasicWinform
             this.sSDataGridViewTextBoxColumn.HeaderText = "Điểm học tập";
             this.sSDataGridViewTextBoxColumn.MinimumWidth = 8;
             this.sSDataGridViewTextBoxColumn.Name = "sSDataGridViewTextBoxColumn";
+            this.sSDataGridViewTextBoxColumn.Width = 150;
             // 
             // cdDataGridViewTextBoxColumn
             // 
-            this.cdDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.cdDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.cdDataGridViewTextBoxColumn.DataPropertyName = "cd";
             this.cdDataGridViewTextBoxColumn.HeaderText = "Hạnh kiểm";
             this.cdDataGridViewTextBoxColumn.MinimumWidth = 8;
             this.cdDataGridViewTextBoxColumn.Name = "cdDataGridViewTextBoxColumn";
+            this.cdDataGridViewTextBoxColumn.Width = 324;
+            // 
+            // dsBindingSource
+            // 
+            this.dsBindingSource.DataSource = typeof(BasicWinform.Entities.ds);
             // 
             // frmUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1157, 721);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(1157, 706);
             this.Controls.Add(this.gridDslichsuhoctapsv);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.picAvatar);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "frmUser";
             this.Text = "User";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Click += new System.EventHandler(this.frmUser_Click);
+            ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridDslichsuhoctapsv)).EndInit();
@@ -324,7 +332,7 @@ namespace BasicWinform
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox picAvatar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RadioButton rdKhac;
@@ -350,5 +358,6 @@ namespace BasicWinform
         private System.Windows.Forms.DataGridViewTextBoxColumn schoolDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn sSDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn cdDataGridViewTextBoxColumn;
+        private System.Windows.Forms.ColorDialog cl1;
     }
 }
