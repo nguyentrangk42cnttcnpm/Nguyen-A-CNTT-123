@@ -45,7 +45,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Faculty.cs" />
     <Compile Include="Entities\Person.cs" />
+    <Compile Include="frmLopHoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLopHoc.Designer.cs">
+      <DependentUpon>frmLopHoc.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +83,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmLopHoc.resx">
+      <DependentUpon>frmLopHoc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -92,6 +102,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\DataSources\BasicWinform.Entities.ds.datasource" />
+    <None Include="Properties\DataSources\BasicWinform.Entities.Faculty.datasource" />
     <None Include="Properties\DataSources\BasicWinform.Entities.Person.datasource" />
     <None Include="Resources\17cf8b59b353460d1f423.jpg" />
   </ItemGroup>

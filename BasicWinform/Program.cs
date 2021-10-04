@@ -17,7 +17,10 @@ namespace BasicWinform
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmMain());
+            //Application.Run(new frmManageUser());
+            //Application.Run(new frmUser());
+            Application.Run(new frmLopHoc());
+            
         }
     }
 }

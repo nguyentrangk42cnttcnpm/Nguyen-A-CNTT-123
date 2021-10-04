@@ -43,6 +43,7 @@ namespace BasicWinform.Entities
                 return $"{LastName} {FirstName}";
             }
         }
+        public string IdFaculty { get; set; }
 
         /// <summary>
         /// Lấy toàn bộ danh sách sinh viên trong CSDL
@@ -59,6 +60,7 @@ namespace BasicWinform.Entities
                 POB = "Bệnh viện TW Huế",
                 HomeTown = "Thừa Thiên Huế",
                 Sex = EGioiTinh.Nam,
+                IdFaculty = "1"
             });
             ls.Add(new Person
             {
@@ -68,11 +70,22 @@ namespace BasicWinform.Entities
                 DOB = new DateTime(2000, 5, 6),
                 POB = "Bệnh viện TW Huế",
                 HomeTown = "Thừa Thiên Huế",
-                Sex = EGioiTinh.Nu
+                Sex = EGioiTinh.Nu,
+                IdFaculty = "2"
             });
 
             return ls;
-
+        }
+        /// <summary>
+        /// lấy ds sv của một khoa
+        /// </summary>
+        /// <param name="idFaculty">Mã khoa cần lấy</param>
+        /// <returns>ds sv của khoa</returns>
+        public static List<Person> GetList(string idFaculty) 
+        {
+            var ls = GetList();
+            var rs = ls.Where(e => e.IdFaculty == idFaculty).ToList();
+            return rs;
         }
         /// <summary>
         /// Lấy một sinh viên từ CSDL
