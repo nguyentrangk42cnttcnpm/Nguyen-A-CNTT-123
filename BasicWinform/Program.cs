@@ -19,7 +19,7 @@ namespace BasicWinform
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new frmManageUser());
             //Application.Run(new frmUser());
-            Application.Run(new frmLopHoc());
+            Application.Run(new frmTime());
             
         }
     }
