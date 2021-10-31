@@ -1,0 +1,10 @@
+F:\users\administrator\source\repos\TreeViewApp\TreeViewApp\bin\Debug\TreeViewApp.exe.config
+F:\users\administrator\source\repos\TreeViewApp\TreeViewApp\bin\Debug\TreeViewApp.exe
+F:\users\administrator\source\repos\TreeViewApp\TreeViewApp\bin\Debug\TreeViewApp.pdb
+F:\users\administrator\source\repos\TreeViewApp\TreeViewApp\obj\Debug\TreeViewApp.csproj.AssemblyReference.cache
+F:\users\administrator\source\repos\TreeViewApp\TreeViewApp\obj\Debug\TreeViewApp.Form1.resources
+F:\users\administrator\source\repos\TreeViewApp\TreeViewApp\obj\Debug\TreeViewApp.csproj.GenerateResource.cache
+F:\users\administrator\source\repos\TreeViewApp\TreeViewApp\obj\Debug\TreeViewApp.csproj.CoreCompileInputs.cache
+F:\users\administrator\source\repos\TreeViewApp\TreeViewApp\obj\Debug\TreeViewApp.exe
+F:\users\administrator\source\repos\TreeViewApp\TreeViewApp\obj\Debug\TreeViewApp.pdb
+F:\users\administrator\source\repos\TreeViewApp\TreeViewApp\obj\Debug\TreeViewApp.Properties.Resources.resources
