@@ -1,0 +1,15 @@
+F:\users\administrator\source\repos\EFTutorial\EFTutorial\bin\Debug\EFTutorial.exe.config
+F:\users\administrator\source\repos\EFTutorial\EFTutorial\bin\Debug\EFTutorial.exe
+F:\users\administrator\source\repos\EFTutorial\EFTutorial\bin\Debug\EFTutorial.pdb
+F:\users\administrator\source\repos\EFTutorial\EFTutorial\bin\Debug\EntityFramework.dll
+F:\users\administrator\source\repos\EFTutorial\EFTutorial\bin\Debug\EntityFramework.SqlServer.dll
+F:\users\administrator\source\repos\EFTutorial\EFTutorial\bin\Debug\EntityFramework.xml
+F:\users\administrator\source\repos\EFTutorial\EFTutorial\bin\Debug\EntityFramework.SqlServer.xml
+F:\users\administrator\source\repos\EFTutorial\EFTutorial\obj\Debug\EFTutorial.csproj.AssemblyReference.cache
+F:\users\administrator\source\repos\EFTutorial\EFTutorial\obj\Debug\EFTutorial.Form1.resources
+F:\users\administrator\source\repos\EFTutorial\EFTutorial\obj\Debug\EFTutorial.csproj.GenerateResource.cache
+F:\users\administrator\source\repos\EFTutorial\EFTutorial\obj\Debug\EFTutorial.csproj.CoreCompileInputs.cache
+F:\users\administrator\source\repos\EFTutorial\EFTutorial\obj\Debug\EFTutorial.exe
+F:\users\administrator\source\repos\EFTutorial\EFTutorial\obj\Debug\EFTutorial.pdb
+F:\users\administrator\source\repos\EFTutorial\EFTutorial\obj\Debug\EFTutorial.frmLopHoc.resources
+F:\users\administrator\source\repos\EFTutorial\EFTutorial\obj\Debug\EFTutorial.Properties.Resources.resources
